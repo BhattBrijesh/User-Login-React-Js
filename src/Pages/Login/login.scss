@@ -1,0 +1,23 @@
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-grid-container{
+  margin-top: 10vh;
+@extend .flex-center;   
+    .login-grid-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  .login-grid-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 35vw;
+  }
+    }
+}
